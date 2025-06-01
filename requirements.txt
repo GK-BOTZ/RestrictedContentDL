@@ -7,3 +7,4 @@ pyleaves
 telegraph
 python-dotenv
 speedtest-cli
+pymongo
