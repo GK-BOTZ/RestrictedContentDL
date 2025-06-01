@@ -1,0 +1,8 @@
+pyrofork
+tgcrypto
+asyncio
+aiofiles
+pillow
+pyleaves
+telegraph
+python-dotenv

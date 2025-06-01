@@ -1,0 +1,52 @@
+{
+  "name": "RestrictedContentDL",
+  "description": "A Telegram bot to save restricted content from public channels. Developed by ISmartDevs.",
+  "repository": "https://github.com/TheSmartDevs/RestrictedContentDL",
+  "keywords": ["telegram", "bot", "pyrogram", "restricted-content"],
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID from https://my.telegram.org",
+      "value": "Your_API_ID_Here",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash from https://my.telegram.org",
+      "value": "Your_API_HASH_Here",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token from @BotFather",
+      "value": "Your_BOT_TOKEN_Here",
+      "required": true
+    },
+    "DEVELOPER_USER_ID": {
+      "description": "Telegram User ID of the bot developer/owner",
+      "value": "Your_Dev_User_ID_Here",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "MongoDB connection string (e.g., mongodb://localhost:27017)",
+      "value": "Your_MONGO_URL_Here",
+      "required": true
+    },
+    "DATABASE_URL": {
+      "description": "Primary database URL (e.g., PostgreSQL/MySQL)",
+      "value": "Your_DATABASE_URL_Here",
+      "required": true
+    },
+    "DB_URL": {
+      "description": "Additional database URL (if applicable)",
+      "value": "Your_DB_URL_Here",
+      "required": true
+    },
+    "COMMAND_PREFIX": {
+      "description": "Command prefixes for bot commands (e.g., !|.|^|/)",
+      "value": "!|.|#|,|/",
+      "required": true
+    },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
